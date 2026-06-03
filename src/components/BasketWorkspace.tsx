@@ -13,8 +13,8 @@ function BasketNameField() {
       value={name}
       onChange={(e) => setName(e.target.value)}
       className="w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-800 outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100"
-      placeholder="Name this basket"
-      aria-label="Basket name"
+      placeholder="Name this trolley"
+      aria-label="Trolley name"
     />
   );
 }
@@ -28,7 +28,7 @@ export function BasketWorkspace() {
             Where should I shop this week?
           </h1>
           <p className="mt-1 text-sm text-slate-500">
-            Build your basket, then we’ll compare it across all supermarkets.
+            Build your trolley, then we’ll compare it across all supermarkets.
           </p>
         </div>
 

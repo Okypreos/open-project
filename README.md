@@ -1,8 +1,8 @@
-# Cart Compass — Smart Shopping Destination
+# TrolleyWise — Smart Shopping Destination
 
 > Brief 3A (Groceries): _Tell users where to shop this week based on their regular items and current specials._
 
-Cart Compass takes a household's regular grocery basket — typed in manually or scanned from a
+TrolleyWise takes a household's regular grocery basket — typed in manually or scanned from a
 receipt photo — and tells them whether **Coles** or **Woolworths** is cheaper this week, by how
 much, and tracks their savings over time.
 
@@ -10,7 +10,7 @@ much, and tracks their savings over time.
 
 A typical $250/week basket can vary 10–20% between the two big supermarkets depending on rotating
 specials. That's $1,300–$2,000/year for an average household. The blocker isn't willingness to
-save, it's the _effort_ of comparing. Cart Compass removes that friction down to one tap.
+save, it's the _effort_ of comparing. TrolleyWise removes that friction down to one tap.
 
 ## Features
 

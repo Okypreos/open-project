@@ -30,7 +30,7 @@ function Landing() {
         Stop guessing which store is cheaper.
       </h1>
       <p className="mx-auto mt-4 max-w-xl text-lg text-slate-600">
-        Cart Compass takes your regular basket — typed in or scanned from a
+        TrolleyWise takes your regular trolley — typed in or scanned from a
         receipt — and tells you whether Coles or Woolworths will save you more
         this week, and by how much.
       </p>
@@ -38,7 +38,7 @@ function Landing() {
       <div className="mt-8 flex justify-center">
         <SignUpButton mode="modal">
           <button className="rounded-xl bg-emerald-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-emerald-700">
-            Compare my basket — it’s free
+            Compare my trolley — it’s free
           </button>
         </SignUpButton>
       </div>
@@ -46,7 +46,7 @@ function Landing() {
       <div className="mx-auto mt-14 grid max-w-2xl gap-4 text-left sm:grid-cols-3">
         <Feature
           title="Snap a receipt"
-          body="Upload a photo and AI turns it into a basket in seconds."
+          body="Upload a photo and AI turns it into a trolley in seconds."
         />
         <Feature
           title="Or add manually"

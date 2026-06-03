@@ -14,10 +14,10 @@ export function HistoryView() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
       <h1 className="text-2xl font-bold tracking-tight text-slate-900">
-        Your baskets
+        Your trolleys
       </h1>
       <p className="mt-1 text-sm text-slate-500">
-        Every basket you save shows up here with its savings.
+        Every trolley you save shows up here with its savings.
       </p>
 
       {/* Metrics */}
@@ -28,11 +28,11 @@ export function HistoryView() {
           highlight
         />
         <Metric
-          label="Baskets saved"
+          label="Trolleys saved"
           value={summary ? String(summary.basketCount) : "—"}
         />
         <Metric
-          label="Avg per basket"
+          label="Avg per trolley"
           value={summary ? money(summary.avgSaved) : "—"}
         />
       </div>
@@ -41,7 +41,7 @@ export function HistoryView() {
       <div className="mt-8">
         {trips && trips.length > 0 && (
           <h2 className="mb-3 text-sm font-semibold text-slate-700">
-            Saved baskets
+            Saved trolleys
           </h2>
         )}
 
@@ -55,13 +55,13 @@ export function HistoryView() {
               No shops saved yet
             </p>
             <p className="mt-1 text-sm text-slate-400">
-              Compare a basket and hit “Save this basket” to start tracking.
+              Compare a trolley and hit “Save this trolley” to start tracking.
             </p>
             <Link
               href="/"
               className="mt-4 inline-block rounded-xl bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
             >
-              Compare a basket
+              Compare a trolley
             </Link>
           </div>
         )}
@@ -109,7 +109,7 @@ export function HistoryView() {
                             Saved {money(trip.saved)}
                           </p>
                           <p className="text-xs text-slate-400">
-                            {pct}% off this basket
+                            {pct}% off this trolley
                           </p>
                         </>
                       )}
@@ -117,8 +117,8 @@ export function HistoryView() {
                     <button
                       onClick={() => deleteTrip({ id: trip._id as Id<"trips"> })}
                       className="grid h-7 w-7 shrink-0 place-items-center rounded-lg text-slate-300 hover:bg-rose-50 hover:text-rose-600"
-                      aria-label="Delete basket"
-                      title="Delete basket"
+                      aria-label="Delete trolley"
+                      title="Delete trolley"
                     >
                       ×
                     </button>

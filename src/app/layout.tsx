@@ -11,9 +11,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Cart Compass — shop the cheaper store",
+  title: "TrolleyWise — shop the cheaper store",
   description:
-    "Tell me where to shop this week. Compare your grocery basket across Coles and Woolworths and save on every shop.",
+    "Tell me where to shop this week. Compare your grocery trolley across Coles, Woolworths, and Aldi and save on every shop.",
 };
 
 export default function RootLayout({

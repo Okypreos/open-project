@@ -13,7 +13,7 @@ export function ProductSearch() {
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
       <label className="mb-2 block text-sm font-medium text-slate-700">
-        Add items to your basket
+        Add items to your trolley
       </label>
       <input
         value={q}
@@ -63,7 +63,7 @@ export function ProductSearch() {
                     : "bg-emerald-600 text-white hover:bg-emerald-700"
                 }`}
               >
-                {inBasket ? `In basket (${entries[p._id]})` : "Add"}
+                {inBasket ? `In trolley (${entries[p._id]})` : "Add"}
               </button>
             </li>
           );

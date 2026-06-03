@@ -14,7 +14,7 @@ export function BasketList() {
   if (ids.length === 0) {
     return (
       <div className="rounded-2xl border border-dashed border-slate-300 bg-white p-8 text-center">
-        <p className="text-sm font-medium text-slate-600">Your basket is empty</p>
+        <p className="text-sm font-medium text-slate-600">Your trolley is empty</p>
         <p className="mt-1 text-sm text-slate-400">
           Search for items or scan a receipt to get started.
         </p>
@@ -28,7 +28,7 @@ export function BasketList() {
     <div className="rounded-2xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-center justify-between border-b border-slate-100 px-4 py-3">
         <h2 className="text-sm font-semibold text-slate-700">
-          Your basket · {count} item{count === 1 ? "" : "s"}
+          Your trolley · {count} item{count === 1 ? "" : "s"}
         </h2>
         <button
           onClick={clear}

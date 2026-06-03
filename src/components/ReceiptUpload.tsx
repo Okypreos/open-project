@@ -89,7 +89,7 @@ export function ReceiptUpload() {
         <div>
           <p className="text-sm font-medium text-slate-700">Scan a receipt</p>
           <p className="text-xs text-slate-400">
-            Upload a photo and AI fills your basket.
+            Upload a receipt and AI fills your trolley.
           </p>
         </div>
         <button
@@ -119,7 +119,7 @@ export function ReceiptUpload() {
       {status.kind === "done" && (
         <div className="mt-3 rounded-lg bg-emerald-50 p-3 text-xs text-emerald-800">
           <p className="font-medium">
-            Added {status.added} item{status.added === 1 ? "" : "s"} to your basket.
+            Added {status.added} item{status.added === 1 ? "" : "s"} to your trolley.
           </p>
           {status.unmatched.length > 0 && (
             <p className="mt-1 text-emerald-700">

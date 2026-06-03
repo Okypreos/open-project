@@ -9,7 +9,7 @@ export function SiteHeader() {
           <span className="grid h-8 w-8 place-items-center rounded-lg bg-emerald-600 text-white">
             $
           </span>
-          <span className="text-lg tracking-tight">Cart Compass</span>
+          <span className="text-lg tracking-tight">TrolleyWise</span>
         </Link>
 
         <nav className="flex items-center gap-1 sm:gap-3">
@@ -24,7 +24,7 @@ export function SiteHeader() {
               href="/baskets"
               className="rounded-md px-3 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100 hover:text-slate-900"
             >
-              Baskets
+              Trolleys
             </Link>
             <div className="ml-1">
               <UserButton />
